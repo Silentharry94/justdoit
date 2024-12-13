@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "justdoit"
+name = "linker-justdoit"
 version = "0.0.1"
-description = "justdoit"
+description = "linker-justdoit"
 authors = ["hanyu <han_yu@hzlh.com>"]
 readme = "README.md"
 license = "MIT"
