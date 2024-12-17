@@ -3,7 +3,7 @@
 #requires = ["hatchling"]
 #build-backend = "hatchling.build"
 [tool.poetry]
-name = "linker-justdoit"
+name = "linker_justdoit"
 version = "0.0.1"
 description = "linker justdoit"
 authors = ["hanyu <han_yu@hzlh.com>"]
