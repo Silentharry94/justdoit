@@ -1,19 +1,20 @@
+
+#[build-system]
+#requires = ["hatchling"]
+#build-backend = "hatchling.build"
 [tool.poetry]
 name = "linker-justdoit"
 version = "0.0.1"
-description = "linker-justdoit"
+description = "linker justdoit"
 authors = ["hanyu <han_yu@hzlh.com>"]
-readme = "README.md"
 license = "MIT"
-repository = "https://github.com/Silentharry94/justdoit"
 classifiers = [
     'Operating System :: OS Independent',
-    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
 ]
-
-[tool.poetry.dependencies]
-python = "^3.9,<3.12"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
