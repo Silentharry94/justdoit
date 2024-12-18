@@ -25,10 +25,10 @@
 
 
 [tool.poetry]
-name = "for_test"
+name = "pome7o"
 version = "0.2.0"
-description = "Core package for OmAgent"
-authors = ["OmAIglobal2024 <OmAIglobal2024@gmail.com>"]
+description = "pome7o"
+authors = ["hanyu <han_yu@hzlh.com>"]
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",
