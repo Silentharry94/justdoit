@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./omagent-core
+        working-directory: ./for_test
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
@@ -51,7 +51,7 @@ jobs:
       run: poetry build
     - name: Publish package
       env:
-        GITHUB_TOKEN: ${{ secrets.TEST_PYPI_API_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
       run: |
         poetry config pypi-token.pypi $GITHUB_TOKEN
         poetry publish
