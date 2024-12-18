@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./for_test
+        working-directory: ./pome7o
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
